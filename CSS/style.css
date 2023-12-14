@@ -38,8 +38,6 @@ body {
   margin-top: 1rem;
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
   gap: 3rem;
 }
 .articles article {
@@ -52,7 +50,7 @@ body {
   gap: 1rem;
 }
 .articles article img {
-  width: 20rem;
+  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   height: 15rem;

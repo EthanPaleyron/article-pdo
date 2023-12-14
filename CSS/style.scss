@@ -34,8 +34,6 @@ body {
   margin-top: 1rem;
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
   gap: 3rem;
   article {
     padding-bottom: 1rem;
@@ -46,7 +44,7 @@ body {
     border: solid;
     gap: 1rem;
     img {
-      width: 20rem;
+      width: 100%;
       object-fit: cover;
       height: 15rem;
     }
